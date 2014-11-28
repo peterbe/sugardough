@@ -1,3 +1,8 @@
+# Adding peep so we can track it on requires.io. For packages
+# installation we use peep.py shipped in ./bin
+# sha256: 1YiBrxeoKyxVnuPvaVEF96AfayYZap-zXLHxUPxPjzw
+peep==1.3
+
 # TarGZ
 # sha256: PeYucc4s-83stuNEytBJSFBshBDqXG6rFcjzsxuKwcA
 # Wheel
@@ -13,7 +18,7 @@ dj-database-url==0.3.0
 # sha256: gRBAtkfl1WhvhNtBXv1pfmJQAIsRK2kJunesBZ4UDHQ
 MySQL-python==1.2.5
 
-# sha256: UDgthwOhbDxhXzKMJnbwAnhwlZJcmfCvsSWlmWKlvS4
+# sha256: JLo_Moq6CNjVBbwqj2ipTr4kqF6Eg2QLZnIhvA79Ox4
 psycopg2==2.5.4
 
 # sha256: ufv3R_qOcR0zDy9Da5suz17tnrZ6Y3yoGrzRHCq-3sg
@@ -35,16 +40,18 @@ MarkupSafe==0.23
 gunicorn==19.1.1
 
 # TarGZ
-# sha256: 0uFqgiSFnrEgEqn6mawa70J48KNhc_79YWzbKutrh-c
+# sha256: pNxeBMs75dG-9lGXFXl4Md77FtMB5193l85wxnyeNbo
 # Wheel
-# sha256: J0AEZbGXarpNJ_vIdrgDkOsDh29BtE237st0xTgtUI8
-whitenoise==1.0.4
+# sha256: AQYO48CTYIdztcrXXioWrKd5GJDyQQgFOsNNB7Sd4Uk
+whitenoise==1.0.5
 
 # sha256: 0yV2uq13_dnmhZvpfCtqPBem9IQ2Q4nbcx8Gl7ehlmE
 django-csp==2.0.3
 
-# sha256: Vt7B6U0vrRPZAJoUC4FoCAhqed337fnrSTHIT2WrsSo
-pytz==2014.9
+# sha256: xby9Ec-YRwlq4etOg93nXRCsYu_m5zxGAPP5gJaM29I
+# sha256: Qxx4vPgnySoZ14Kc2a55AtUtbfyyPZiQT8gH3eoewHY
+# sha256: S6CrdPp_NPd_8jbuIVdFTRwqrqqiWTI2O_ob5suC29Y
+pytz==2014.10
 
 # sha256: drxjpOLV5aDfd8p9GPD1bixGz7YrcRA7qSqSx5-rHgM
 nose==1.3.4
@@ -52,8 +59,8 @@ nose==1.3.4
 # sha256: mq4WtWKGak3apeiXhymrrbvtVEco2I4LnJr3sx3Qcu0
 django-nose==1.2
 
-# sha256: Pf5ngrqy-6UH0DYMMzNhTp0upGWyAS05qeykiXG9qtw
-newrelic==2.38.0.31
+# sha256: l87FJeejaziLKl9qV6MwWLIdrHTqpEtWpYLPIv2FuRI
+newrelic==2.38.2.32
 
 # sha256: KF6L1zDAtv374jwy0pNr_7pAHyPKsTLocixovoDW8YI
 flake8==2.2.5
@@ -79,5 +86,18 @@ ipdb==0.8
 # sha256: lJM7ZOL-CAfaBhLFdKAhwNrCjHvTxKI3I65aOeqPPQQ
 Sphinx==1.2.3
 
+# sha256: PYBK7mdyHzjoQO-jo65SiYMo5kcJJZNB8qiQHVvwHNQ
+# sha256: Dyn1RPbQN5ifoMdymp6rfk2OpQ1vDvNzY_RydWwe3KY
+sphinx-rtd-theme==0.1.6
+
+# sha256: XinOsvZKY-HOMBr0x0vrJ7WmYeWGPQBFT1mUC6JNc50
+# sha256: OQDKtkuxi2YYkSgARVAePxoFoeyZp1rrLtAmkdB4JcI
+sphinx-autobuild==0.3.0
+
 # sha256: x9txeBCraWX2bIzwOYqYydjfmC2jm0zX8WKRHriVlvo
 docutils==0.12
+
+# sha256: XgOeHUDSMpge1YkUttGsLkU6foPd6iLvnz7q3QHeRcs
+# sha256: ZoyOZluTX2I4WcEyE-G8mzP9Gf7sTbfC-OhVwcjFWdc
+# sha256: fydQ9H4cA_ffSGbTdhm4B0_8HTIYI7taNRMC_k3SC2c
+Pygments==2.0.1
