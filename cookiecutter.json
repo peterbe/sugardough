@@ -1,6 +1,5 @@
 {
     "project_name": "sugardough",
     "project_db": "sugardough_db",
-    "project_author": "Chef",
-    "project_owner": "mozilla"
+    "project_author": "Chef"
 }
