@@ -51,7 +51,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'sugardough'
-copyright = u'2014, Chef'
+copyright = u'2014, Mozilla Corporation'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -204,7 +204,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   ('index', 'sugardough.tex', u'sugardough Documentation',
-   u'Chef', 'manual'),
+   u'Mozilla Corporation', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -234,7 +234,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'sugardough', u'sugardough Documentation',
-     [u'Chef'], 1)
+     [u'Mozilla Corporation'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -248,7 +248,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'sugardough', u'sugardough Documentation',
-   u'Chef', 'sugardough', 'One line description of project.',
+   u'Mozilla Corporation', 'sugardough', 'One line description of project.',
    'Miscellaneous'),
 ]
 
